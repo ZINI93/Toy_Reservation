@@ -1,37 +1,67 @@
-HELP.md
+# Java 관련
+*.class
+*.jar
+*.war
+*.ear
+
+# 빌드 디렉토리
+/target/
+/out/
+
+# Maven
+.mvn
+**/mvnw
+**/mvnw.cmd
+**/.mvn
+
+# Gradle
 .gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+/build/
+/.gradle/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IntelliJ IDEA
+.idea/
 *.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Eclipse
+.project
+.classpath
+.settings/
 
-### VS Code ###
-.vscode/
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Lombok
+.lombok/
+
+# Spring Boot Devtools
+/spring-boot-devtools.properties
+
+# QueryDSL
+/build/generated/
+
+# H2 데이터베이스
+*.db
+*.mv.db
+*.trace.db
+
+# MySQL 설정 파일
+*.sql
+*.cnf
+
+# 환경 변수 파일
+.env
+
+# Test 결과 파일
+/test-output/
+
+# Git 정보
+.git/
+
+# IDE와 무관한 설정 파일
+*.swp
